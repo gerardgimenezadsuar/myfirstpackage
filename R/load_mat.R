@@ -14,5 +14,6 @@ load_mat <- function(infile){
   in.mat <- as.matrix(in.dt[, -1, with = FALSE])
   rownames(in.mat) <- unlist(in.dt[, 1, with = FALSE])
   in.mat
+
 }
 
